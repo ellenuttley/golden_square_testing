@@ -48,9 +48,3 @@ def test_reading_time_input_empty():
         reading_time('')
     error_message = str(err.value)
     assert error_message == "Please enter a valid text"
-
-# def test_reading_time_():
-#     pass
-
-# def test_reading_time_():
-#     pass
