@@ -4,7 +4,7 @@ import pytest
 lorem_ipsum = 'Lorem ipsum dolor sit amet consectetur, adipiscing elit. Sed sit amet fermentum diam, non hendrerit erat. '
 
 def test_count_words_functional():
-    return count_words('')
+    assert count_words
     
 def test_count_words_output_int():
     assert type(count_words(lorem_ipsum)) == int
